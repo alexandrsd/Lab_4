@@ -19,11 +19,11 @@ namespace laba4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double r = Convert.ToDouble(textBox1.Text); //y
+            double r = Convert.ToDouble(textBox1.Text); //x
             double d = ((2 * Convert.ToInt32(textBox1.Text) - 7) / (Math.Sqrt(3 * Convert.ToInt32(textBox1.Text) + 21)));
             label1.Text = Convert.ToString(d); 
 
-            double d1 = (Math.Sqrt(Convert.ToInt32(textBox1.Text) / (Convert.ToInt32(textBox1.Text))) - 1);
+            double d1 = (Math.Sqrt(Convert.ToInt32(textBox1.Text))) / (Convert.ToInt32(textBox1.Text) - 1);
             label2.Text = Convert.ToString(d1); 
 
             double d2 = ((Convert.ToInt32(textBox1.Text) + 1) / (Convert.ToInt32(textBox1.Text) - 1) + Math.Sqrt(Math.Pow(Convert.ToInt32(textBox1.Text), 2)));
