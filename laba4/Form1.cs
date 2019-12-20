@@ -29,5 +29,10 @@ namespace laba4
             double d2 = ((Convert.ToInt32(textBox1.Text) + 1) / (Convert.ToInt32(textBox1.Text) - 1) + Math.Sqrt(Math.Pow(Convert.ToInt32(textBox1.Text), 2)));
             label3.Text = Convert.ToString(d2); 
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
