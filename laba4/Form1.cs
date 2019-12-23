@@ -19,7 +19,7 @@ namespace laba4
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double r = Convert.ToDouble(textBox1.Text); //x
+            double r = Convert.ToDouble(textBox1.Text);
             double d = ((2 * Convert.ToInt32(textBox1.Text) - 7) / (Math.Sqrt(3 * Convert.ToInt32(textBox1.Text) + 21)));
             label1.Text = Convert.ToString(d); 
 
@@ -31,6 +31,11 @@ namespace laba4
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
